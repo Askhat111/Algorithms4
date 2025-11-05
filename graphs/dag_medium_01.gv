@@ -1,0 +1,18 @@
+digraph G {
+  rankdir=LR; node [shape=ellipse];
+  labelloc="t"; label="dag_medium_01";
+  0 -> 3 [label="2"];
+  0 -> 4 [label="5"];
+  1 -> 4 [label="1"];
+  1 -> 5 [label="4"];
+  2 -> 5 [label="3"];
+  3 -> 6 [label="3"];
+  4 -> 6 [label="2"];
+  4 -> 7 [label="6"];
+  5 -> 8 [label="5"];
+  6 -> 9 [label="4"];
+  7 -> 10 [label="1"];
+  8 -> 10 [label="2"];
+  9 -> 11 [label="2"];
+  10 -> 11 [label="3"];
+}

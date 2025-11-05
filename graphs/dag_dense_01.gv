@@ -1,0 +1,26 @@
+digraph G {
+  rankdir=LR; node [shape=ellipse];
+  labelloc="t"; label="dag_dense_01";
+  0 -> 1 [label="1"];
+  0 -> 2 [label="2"];
+  0 -> 3 [label="2"];
+  1 -> 4 [label="2"];
+  1 -> 5 [label="1"];
+  2 -> 5 [label="2"];
+  2 -> 6 [label="3"];
+  3 -> 6 [label="1"];
+  3 -> 7 [label="2"];
+  4 -> 8 [label="2"];
+  5 -> 8 [label="1"];
+  5 -> 9 [label="2"];
+  6 -> 9 [label="1"];
+  6 -> 10 [label="2"];
+  7 -> 10 [label="1"];
+  7 -> 11 [label="3"];
+  8 -> 12 [label="2"];
+  9 -> 12 [label="2"];
+  9 -> 13 [label="3"];
+  10 -> 13 [label="1"];
+  10 -> 14 [label="2"];
+  11 -> 14 [label="2"];
+}
