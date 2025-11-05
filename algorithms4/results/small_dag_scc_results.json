@@ -1,0 +1,43 @@
+{
+  "sccs": [
+    {
+      "vertices": [
+        5
+      ],
+      "size": 1
+    },
+    {
+      "vertices": [
+        4
+      ],
+      "size": 1
+    },
+    {
+      "vertices": [
+        3
+      ],
+      "size": 1
+    },
+    {
+      "vertices": [
+        1
+      ],
+      "size": 1
+    },
+    {
+      "vertices": [
+        2
+      ],
+      "size": 1
+    },
+    {
+      "vertices": [
+        0
+      ],
+      "size": 1
+    }
+  ],
+  "timing_ns": 33400,
+  "dfs_visits": 6,
+  "dfs_edges": 6
+}
